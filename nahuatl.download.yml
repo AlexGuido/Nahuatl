@@ -1,11 +1,11 @@
-name: nahu
+name: nah
 targets:
     - target: train
       main_link: "https://github.com/AmericasNLP/americasnlp2021/tree/main/data/nahuatl-spanish"
       files:
         - type : "es"
           link : "https://raw.githubusercontent.com/AmericasNLP/americasnlp2021/main/data/nahuatl-spanish/train.nah"
-        - type : "nahu"
+        - type : "nah"
           link : "https://raw.githubusercontent.com/AmericasNLP/americasnlp2021/main/data/nahuatl-spanish/train.es"
     - target: test
       main_link: "https://github.com/AmericasNLP/americasnlp2021/tree/main/data/nahuatl-spanish"
@@ -13,12 +13,12 @@ targets:
         # FALTA UN TEST
        # - type : "es" 
         #  link : ""
-        - type : "nahu"
+        - type : "nah"
           link : "https://raw.githubusercontent.com/AmericasNLP/americasnlp2021/main/data/nahuatl-spanish/test.es"
     - target: dev
       main_link: "https://github.com/AmericasNLP/americasnlp2021/tree/main/data/nahuatl-spanish"
       files:
         - type : "es"
           link : "https://raw.githubusercontent.com/AmericasNLP/americasnlp2021/main/data/nahuatl-spanish/dev.nah"
-        - type : "nahu"
+        - type : "nah"
           link : "https://raw.githubusercontent.com/AmericasNLP/americasnlp2021/main/data/nahuatl-spanish/dev.es"
